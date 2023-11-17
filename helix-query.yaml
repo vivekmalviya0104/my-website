@@ -2,7 +2,11 @@ version: 1
 indices:
   my-website:
     include:
-      - /**
+      - /
+      - /about-us
+      - /contact-us
+      - /parent/child1
+      - /parent/child2
     target: /query-index.json
     properties:
       lastModified:
